@@ -1,0 +1,18 @@
+.header{
+    height:100px;
+    position: relative;
+}
+.nav-menu{
+    position: absolute;
+    top:60%;
+
+}
+.nav-link{
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    left:calc(var(--left) * 50px);
+}
+.nav-link:hover{
+    color:var(--primary);
+}

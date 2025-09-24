@@ -1,0 +1,55 @@
+.footer-section{
+    background-color: #AA5262;
+    height: 300px;
+    position: relative;
+    top:300px;
+}
+
+.footer-title{
+    position: relative;
+    top:60px;
+    color:white;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.year-text{
+    color:white;
+    position: relative;
+    top:80px;
+}
+.footer-box{
+    position: relative;
+    top:10px;
+    width:40px;
+    height:40px;
+    display:inline-block;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    left:400px;
+}
+.footer-text{
+    position: relative;
+    left:300px;
+    top:20px;
+    width:400px;
+    text-align: center;
+    color:white;
+}
+.fa-file{
+    position: relative;
+    top:40px;
+    left:20px;
+    
+}
+.fa-envelope{
+    position: relative;
+    top:0;
+    left:800px;
+    color: white;
+}
+.contact-text{
+    color:white;
+    position: relative;
+    left:800px;
+}

@@ -1,0 +1,52 @@
+.slider-section{
+    background-color: var(--primary);
+}
+.fa-house {
+    color:var(--secondary);
+    position: relative;
+    top:10%;
+    left:10px;
+}
+.icon-title{
+    text-transform: uppercase;
+    color:white;
+    font-size:10px;
+    margin-top:4px;   
+}
+.slider-title{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-top:30px;
+    font-size:40px;
+}
+.slider-subtitle{
+    color:var(--secondary);
+    text-transform: uppercase;
+    margin-top:5px  ;
+    font-size: 10px;
+    
+}
+.slider-text{
+    font-size: 8px;
+    color:pink;
+    max-width:200px;
+    line-height: 15px;
+    margin-top: 8px;
+    font-size: 8px;
+}
+.slider-radio{
+    margin-top:20px;
+
+}
+.slider-radio:active{
+    background-color: var(--secondary);
+}
+.slider-image{
+    width:320px;
+    height:320px;
+    position: absolute;
+    left:570px; 
+    top:calc(100% - 320px);
+}
+

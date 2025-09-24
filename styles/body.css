@@ -1,0 +1,269 @@
+
+.content-section{
+    background-color: var(--secondary);
+    height:300px;
+    position: relative;
+}
+.content-title{
+    color:white;
+    position: relative;
+    text-transform: uppercase;
+    left:350px;
+    top:30px;
+    font-weight: 200;
+}
+.content-subtitle{
+    color:white;
+    position: relative;  
+    left:250px;
+    top: 50px;
+    font-weight: 100;
+}
+.content-text{
+    color:white;
+    position: relative;
+    left:100px;
+    top:60px;
+    text-align:center;
+    font-size: 12px;
+    width:700px;
+    font-weight: 80;
+    line-height: 1.5;
+}
+
+.image-section{     
+    position: relative;  
+}
+.first-image{
+    width:200px;
+    height:150px;
+    position: absolute;
+    top:80px;
+}
+.second-image{
+     width:200px;
+    height:150px;
+    position: relative;
+    top:80px;
+    left:310px;
+}
+.third-image{
+     width:200px;
+    height:150px;
+    position: relative;
+    top:80px;
+    left:410px;
+}
+.information-section{
+    background-color: white;
+    height: 600px;
+    position: relative;
+
+}
+.box-glossary{
+    width:200px;
+    height: 200px;
+    border:1px solid transparent;
+    background-color: var(--accent1);
+    position: absolute;
+    top:calc(50% - 300px);
+}
+.box-title{
+    color:white;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top:20px;
+}
+.box-text{
+    color:white;
+    text-align: center;
+    font-weight: 80;
+    font-size: 8px;
+    position: relative;
+    top:40px;
+}
+.box{
+    width:60px;
+    height:30px;
+    border: 1px solid white;
+    position: relative;
+    top:80px;
+    left:65px;
+    
+}
+.more-button{
+    color: white;
+    text-transform: uppercase;
+    position: relative;
+    left:8px;
+    
+}
+.box:active{
+    background-color: rgba(255, 255, 255, 0.527) ;
+}
+.box-analysis{
+     width:200px;
+    height: 200px;
+    border:1px solid transparent;
+    background-color: var(--accent2);
+    position: relative;
+    left:calc(100% - 870px);
+    top: calc(50% - 300px);
+}
+.box-practice{
+     width:200px;
+    height: 200px;
+    border:1px solid transparent;
+    background-color: var(--accent3);
+    position: relative;
+    left: calc(100% - 566px);
+    top:calc(50% - 500px);
+}
+.solution-title{
+    position: relative;
+    left: 270px;
+    text-transform: uppercase;
+    font-size: 28px;  
+    letter-spacing: 1.5px ;
+}
+.first-img{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+    position:relative;
+    top:50px;
+    
+}
+.second-img{
+    border-radius: 50%;
+     width:200px;
+    height:200px;
+     position:relative;
+    top:50px;
+    left:90px;
+    
+}
+.third-img{
+    border-radius: 50%;
+     width:200px;
+    height:200px;
+     position:relative;
+    top:50px;
+    left:180px;
+}
+.fa-solid{
+    color:#F259B2;
+    position: relative;
+    left:90px;
+    top:80px;
+}
+.fa-scale-balanced{
+    color:#D46300;
+    position: relative;
+    left:360px;
+}
+.fa-bullseye{
+    color:#D94F77;
+    position: relative;
+    left:630px;
+}
+.business-title{
+    text-transform: uppercase;
+    position: relative;
+    top:110px;
+    left:50px;
+    letter-spacing: 1px;
+}
+.personal-title{
+     text-transform: uppercase;
+    position: relative;
+    top:88px;
+    left:340px;
+    letter-spacing: 1px;
+}
+.professional-title{
+    text-transform: uppercase;
+    position: relative;
+    top:68px;
+    left:610px;
+    letter-spacing: 1px;
+}
+.business-text{
+    position: relative;
+    top:85px;
+    width:200px;
+    text-align: center;
+    font-size: 10px;
+}
+.personal-text{
+ position: relative;
+    top:45px;
+    width:200px;
+    left:290px;
+    text-align: center;
+    font-size: 10px;
+}
+.professional-text{
+     position: relative;
+    top:10px;
+    width:200px;
+    left:590px;
+    text-align: center;
+    font-size: 10px;
+}
+.first-more{
+    text-transform: uppercase;
+    position: relative;
+    left:75px;
+    top:30px;
+}
+.second-more{
+     text-transform: uppercase;
+    position: relative;
+    left:310px;
+    top:30px;
+}
+.third-more{
+     text-transform: uppercase;
+    position: relative;
+    left:560px;
+    top:30px;
+}
+.subscribe-section{
+    background-image: url(./image/bg02.jpg);
+    
+    height:400px;
+    position: relative;
+    top:300px;
+}
+.subscribe-text{
+    color:white;
+    width:400px;
+    position:relative;
+    top:100px;
+}
+.email-input{
+    position: relative;
+    top:60px;
+    left:400px;
+    border: 1px solid whitesmoke;
+    height:35px;
+    width:300px;
+    background-color: white;
+}
+.email-input::placeholder{
+    text-align: center;
+    position: absolute;
+    left:10px;
+}
+.subscribe-button{
+    position: relative;
+    top:60px;
+    left:400px;
+     border: 1px solid whitesmoke;
+    height:35px;
+    width:150px;
+    color:white;
+    background-color: #4D194A;
+}
